@@ -32,3 +32,9 @@ Puedes encontrar los datos en el archivo  /datasets/Churn.csv file. Descarga el 
 - Balance: saldo de la cuenta
 - NumOfProducts: número de productos bancarios utilizados por el cliente
 - IsActiveMember: actividad del cliente (1 - sí; 0 - no)
+- HasCrCard: el cliente tiene una tarjeta de crédito (1 - sí; 0 - no)
+- EstimatedSalary: salario estimado
+
+## Objetivo
+
+- Exited: El cliente se ha ido (1 - sí; 0 - no)
