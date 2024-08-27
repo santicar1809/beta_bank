@@ -1,0 +1,21 @@
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 10000 entries, 0 to 9999
+Data columns (total 14 columns):
+ #   Column            Non-Null Count  Dtype  
+---  ------            --------------  -----  
+ 0   row_number        10000 non-null  object 
+ 1   customer_id       10000 non-null  object 
+ 2   surname           10000 non-null  object 
+ 3   credit_score      10000 non-null  int64  
+ 4   geography         10000 non-null  object 
+ 5   gender            10000 non-null  object 
+ 6   age               10000 non-null  int64  
+ 7   tenure            10000 non-null  float64
+ 8   balance           10000 non-null  int32  
+ 9   num_of_products   10000 non-null  int64  
+ 10  has_cr_card       10000 non-null  int64  
+ 11  is_active_member  10000 non-null  int64  
+ 12  estimated_salary  10000 non-null  int32  
+ 13  exited            10000 non-null  int64  
+dtypes: float64(1), int32(2), int64(6), object(5)
+memory usage: 1015.8+ KB

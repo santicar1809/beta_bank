@@ -1,0 +1,14 @@
+model,best_estimator,best_train_score,acc_val,f1_val,roc_auc_val
+Random_Forest,"Pipeline(steps=[('scaler', StandardScaler()),
+                ('rf',
+                 RandomForestClassifier(max_depth=90, max_features=5,
+                                        n_estimators=200,
+                                        random_state=12345))])",0.8798275630703167,0.7624011502516176,0.6548302872062663,0.843287200036877
+dt,"Pipeline(steps=[('scaler', StandardScaler()),
+                ('dt',
+                 DecisionTreeClassifier(max_features=6, min_samples_leaf=2,
+                                        random_state=12345))])",0.7643330642860935,0.7124370956146657,0.6035678889990089,0.6907548492415585
+Logreg,"Pipeline(steps=[('scaler', StandardScaler()),
+                ('lr',
+                 LogisticRegression(C=0.34, max_iter=183, random_state=12345,
+                                    warm_start=True))])",0.6387936994143373,0.7027318475916606,0.6190695532012898,0.77257879669824
